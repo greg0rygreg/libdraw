@@ -3,6 +3,7 @@
 #include <string.h>
 
 struct canvas* initCanvas(int h, int w) {
+  if (h * w == 0) return NULL;
   struct canvas* cs = malloc(sizeof(struct canvas));
   if (cs == NULL) return NULL;
   cs->height = h;
@@ -53,7 +54,8 @@ void setAuthor(struct canvas* c, char* a) {
 }
 
 void togglePixel(struct canvas* c, int x, int y) {
-  c->pixels[y-1][x-1] = !c->pixels[y-1][x-1];
+  if (y-1 >= 0 && y-1 <= c->height-1 && x-1 >= 0 && x-1 <= c->width-1)
+    c->pixels[y-1][x-1] = !c->pixels[y-1][x-1];
 }
 
 void invertPixels(struct canvas* c) {

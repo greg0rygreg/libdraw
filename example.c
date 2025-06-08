@@ -14,9 +14,9 @@ int main() {
   setAuthor(canvas, greg);
   setTime(canvas, time(NULL));
   invertPixels(canvas);
-  togglePixel(canvas, 2, 1);
-  togglePixel(canvas, 1, 2);
   togglePixel(canvas, 2, 2);
+  togglePixel(canvas, 1, 2);
+  togglePixel(canvas, 2, 1);
   togglePixel(canvas, 3, 2);
 
   for (int y = 0; y < h; y++) {

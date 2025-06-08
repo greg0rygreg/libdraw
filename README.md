@@ -1,4 +1,4 @@
 # libdraw
 drawing library for C
 
-0.1
+0.2-rc1
