@@ -1,4 +1,7 @@
 # libdraw
-drawing library for C
+drawing library for C that i made for Cdraw
 
-0.2-rc1
+0.2-rc2
+
+# TODO
+- [ ] document the functions
