@@ -22,6 +22,7 @@ void togglePixel(struct canvas* c, int x, int y);
 void invertPixels(struct canvas* c);
 void setTime(struct canvas* c, time_t t);
 bool getPixel(struct canvas* c, int x, int y);
+void setPixel(struct canvas* c, int x, int y, bool v);
 
 #ifdef __cplusplus
 }
