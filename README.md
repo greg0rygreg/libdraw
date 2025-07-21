@@ -1,7 +1,3 @@
-# READ THIS FIRST
-
-libdraw is now being hosted as a rust project in [greg0rygreg/libdraw-rs](https://github.com/greg0rygreg/libdraw-rs)
-
 # libdraw
 drawing library for C that i made for Cdraw and personal use
 
