@@ -8,4 +8,4 @@ drawing library for C that i made for Cdraw and personal use
 # TODO
 - [x] document the functions
 - [ ] get testers to report bugs
-- [ ] fix `invertPixels` function
+- [x] fix `invertPixels` function
