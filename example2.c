@@ -15,6 +15,8 @@ int main() {
   setPixel(canvas, 3, 1, GREEN);
   fillPixels(canvas, 1, 3, 3, 3, RED);
   
+  invertPixels(canvas);
+
   char s[14];
   for (int y = 0; y < h; y++) {
     for (int x = 0; x < w; x++) {
