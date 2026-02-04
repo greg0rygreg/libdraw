@@ -18,19 +18,9 @@ int main() {
   for (i = 0; i < 3; i++) setPixel(canvas, 9, i+1, GREEN);
   for (i = 0; i < 2; i++) setPixel(canvas, 10, i+2, GREEN);
   for (i = 0; i < 3; i++) setPixel(canvas, 13, i+1, YELLOW);
-  for (i = 0; i < 3; i++) {
-    if (i != 1)
-      setPixel(canvas, 14, i+1, YELLOW);
-    else
-      setPixel(canvas, 15, i+1, YELLOW);
-  }
+  for (i = 0; i < 3; i++) setPixel(canvas, i!=1? 14:15, i+1, YELLOW);
   for (i = 0; i < 3; i++) setPixel(canvas, 17, i+1, BLUE);
-  for (i = 0; i < 3; i++) {
-    if (i != 2)
-      setPixel(canvas, 18, i+1, BLUE);
-    else
-      setPixel(canvas, 19, i+1, BLUE);
-  }
+  for (i = 0; i < 3; i++) setPixel(canvas, i!=2? 18:19, i+1, BLUE);
   for (i = 0; i < 3; i++) setPixel(canvas, 21, i+1, MAGENTA);
   for (i = 0; i < 3; i++) setPixel(canvas, 23, i+1, MAGENTA);
   for (i = 0; i < 3; i++) { if (i != 2) setPixel(canvas, 22, i+1, MAGENTA); }
