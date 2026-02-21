@@ -1,7 +1,7 @@
 # libdraw
 drawing library for C that i made for Cdraw and personal use
 
-1.3
+1.4
 
 ![L I b D R A W](libdraw.png)
 
